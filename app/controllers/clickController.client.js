@@ -2,8 +2,8 @@
 
 (function () {
 	angular
-		.module('clementineApp', ['ngResource'])
-		.controller('clickController',
+		.module('nightlifeApp', ['ngResource'])
+		.controller('barListController',
 			['$scope',
 			'$resource',
 			function ($scope, $resource) {
